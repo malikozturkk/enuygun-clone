@@ -1,0 +1,52 @@
+.Header {
+    width: 100%;
+}
+nav {
+    min-height: 56px;
+    height: 56px;
+    display: flex;
+}
+.Container {
+    width: 1140px;
+    max-width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    display: flex;
+}
+.svgLogos {
+    display: inline;
+    
+}
+.header-items {
+    color: #53605e;
+    border-bottom: 3px solid transparent;
+}
+.passive:hover {
+    border-bottom: 3px solid #D7DDDB;
+    color: #939d9a;
+}
+.active {
+    border-color: #2dc44d;
+}
+.active:hover {
+    color: #939d9a;
+}
+.header-logo {
+    margin-right: 0.8rem;
+}
+.header-items, .dot, .header-logo, .Dropdown-Links {
+    padding: 15px;
+    font-family: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.dot {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    padding-top: 8px;
+    color: #53605e;
+}

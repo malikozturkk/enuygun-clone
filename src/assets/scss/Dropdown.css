@@ -1,0 +1,24 @@
+.Dropdown {
+    display: flex;
+    flex-direction: column;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    float: left;
+    padding: 0 0;
+    margin: 1px 0 0;
+    font-size: .875rem;
+    text-align: left;
+    background-color: #fff;
+    border: 0 solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+    box-shadow: 0 0 14px 0 rgb(0 0 0 / 12%), 0 14px 14px 0 rgb(0 0 0 / 20%);
+    position: absolute;
+    min-width: 10rem;
+}
+.Dropdown a {
+    color: #53605e;
+    padding-left: 20px;
+    padding-right: 20px;
+    white-space: nowrap;
+}

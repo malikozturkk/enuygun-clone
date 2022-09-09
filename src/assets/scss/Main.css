@@ -1,0 +1,48 @@
+body {
+    font-family: 'Open Sans','system-ui','Helvetica Neue','Arial','sans-serif';
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #53605e;
+}
+a {
+    text-decoration: none;
+}
+.PrimaryBtn {
+    display: block;
+    width: 100%;
+    background-color: #2dc44d;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 11px;
+    user-select: none;
+    min-width: 130px;
+    line-height: 1rem;
+    outline: 0;
+    text-decoration: none;
+    text-align: center;
+}
+.DefaultButton {
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 11px;
+    outline: none;
+    user-select: none;
+    min-width: 130px;
+    line-height: 1rem;
+    background-color: #fff;
+    outline: 0;
+    text-decoration: none;
+    text-align: center;
+    color: #53605e;
+    border: 1px solid #e2e2e2;
+}

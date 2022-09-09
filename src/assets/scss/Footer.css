@@ -1,0 +1,118 @@
+body {
+    font-family: Open Sans,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+}
+.footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 10rem;
+    font-size: .8125rem!important;
+    color: #53605e;
+    background-color: #f8faf9;
+    border-top: 3px solid #c2cac8;
+
+}
+.links {
+    color: #53605e;
+    text-align: left;
+    display: block; 
+}
+.links:hover {
+    text-decoration: underline;
+}
+
+
+.footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col {
+    flex: 1 1 0;
+    max-width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    width: 143.50px;
+
+}
+
+.footer-menu-list {
+    margin-bottom: 0;
+    padding: 0;
+    margin-top: 0;
+    list-style: none;
+}
+
+.footer-nav {
+    display: flex;
+}
+
+.footer-menu-toggler {
+    font-weight: 700;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+hr {
+    height: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-top: 1px solid #c2cac8;
+}
+ul {
+    list-style-type: none;
+}
+.footerContainer {
+    display: block;
+    width: 1140px;
+    max-width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.footer-social {
+    display: flex;
+    align-items: center;
+    color: #53605e;
+}
+.footer-social-icons {
+    display: inline-block;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    color: #727e7c;
+}
+.footer-bottom {
+    position: relative;
+}
+.footer-lang {
+    text-align: center;
+}
+.footer-nav {
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.footer-bottom-links {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #53605e;
+}
+.footer-iata {
+    position: absolute;
+    top: calc(-40px - 1rem);
+    left: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+.footer-iata-text {
+    display: inline;
+    vertical-align: middl
+}
+.footer-copyright {
+    text-align: center;
+}
+small {
+    font-size: 80%;
+    font-weight: 400;
+}

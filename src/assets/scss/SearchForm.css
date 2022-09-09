@@ -1,0 +1,318 @@
+.JumbotronMain {
+    background-image: url(https://cdn2.enuygun.com/media/lib/uploads/image/40347.jpeg);
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    z-index: 2;
+    height: 400px;
+}
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 0;
+}
+.tab-container {
+    min-height: 251px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.nav-item {
+    position: relative;
+    margin-bottom: -1px;
+}
+.nav-link {
+    border: none;
+    border-bottom: 2px solid transparent;
+    color: #53605e;
+    white-space: nowrap;   
+    display: block;
+    padding: 0.5em 1em;
+}
+.SearchFormRow {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.FlightSearchFormWrapper {
+    font-family: 'Helvetica Neue','Arial','sans-serif';
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #53605e;
+}
+.FlightSearchFormCol {
+    display: block;
+    padding: 0 16px;
+    position: relative;
+    width: 50%;
+}
+.OriginLabel, .DestinationLabel {
+    font-size: 14px;
+    line-height: 16px;
+    display: block;
+    margin-bottom: 3px;
+    user-select: none;
+    cursor: pointer;
+}
+#FlightSearchForm {
+    padding: 16px 0;
+    display: flex;
+    flex-direction: column;
+}
+.SearchFormInput {
+    position: relative;
+}
+.OriginInput, .DestinationInput {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    box-sizing: border-box;
+    padding: 11px 30px 11px 10px;
+    line-height: 1rem;
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    background-color: #fff;
+    outline: 0;
+    color: inherit;
+}
+.InputIcon {
+    position: absolute;
+    right: 20px;
+    bottom: 7px;
+    font-size: 20px;
+    line-height: 1;
+    color: #2dc44d;
+    pointer-events: none;
+}
+.SearchFormDateRow {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.SearchFormDepartureCol, .SearchFormReturnCol {
+    display: block;
+    padding: 0 16px;
+    position: relative;
+    width: 50%;
+}
+.DateForm {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+.SingleDatePickerInput {
+    border: 0;
+    display: block;
+    border-radius: 2px;
+}
+.DateFormInput {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    vertical-align: middle;
+    opacity: 1;
+    width: 100%;
+}
+.DateInput {
+    user-select: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    box-sizing: border-box;
+    padding: 11px 30px 11px 10px;
+    line-height: 1rem;
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    background-color: #fff;
+    outline: 0;
+    color: inherit;
+    width: 100%;
+}
+.OneWayCheckbox {
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+.DefaultButton {
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 11px;
+    outline: none;
+    user-select: none;
+    min-width: 130px;
+    line-height: 1rem;
+    background-color: #fff;
+    outline: 0;
+    text-decoration: none;
+    text-align: center;
+    color: #53605e;
+    border: 1px solid #e2e2e2;
+}
+.PassengerSelectButton {
+    text-align: left;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+}
+.PrimaryBtn {
+    display: block;
+    width: 100%;
+    background-color: #2dc44d;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 11px;
+    user-select: none;
+    min-width: 130px;
+    line-height: 1rem;
+    outline: 0;
+    text-decoration: none;
+    text-align: center;
+}
+.SvgIcon {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    font-size: 16px;
+}
+.OriginDestinationSwitch {
+    top: 50%;
+    left: 50%;
+    margin-top: 10px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.SwitchButton {
+    background: transparent;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    border: 0;
+    color: #585d5f;
+    cursor: pointer;
+    position: relative;
+}
+.SwitchSvgIcon {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0;
+    font-size: 22px;
+}
+.react-tabs__tab-list {
+    border-bottom: none!important;
+    margin: 0!important;
+}
+.react-tabs__tab {
+    border: none!important;
+    border-bottom: none!important;
+    bottom: 0;
+    padding: 0!important;
+}
+.react-tabs__tab--selected {
+    border-bottom: 2px solid #2dc44d!important;
+    background: none!important;
+    border-radius: initial!important;
+}
+.react-tabs__tab:focus {
+    display: none;
+}
+.SearchForm {
+    position: relative;
+    top: 0;
+    padding: 1rem;
+    background-color: #fff;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    min-height: 241px;
+}
+.form-control-label {
+    cursor: pointer;
+    margin-bottom: 0.25rem;
+    display: inline-block;
+}
+.form-control {
+    display: block;
+    width: 90%;
+    padding: 0.5rem;
+    font-size: .875rem;
+    line-height: 1.25;
+    color: #53605e;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid #d7dddb;
+    border-radius: 0.25rem;
+    box-shadow: none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.col-6 {
+    flex: 1 1 50%;
+    max-width: 50%;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.form-group {
+    margin-bottom: 0.75rem;
+}
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.text-right {
+    text-align: right!important;
+}
+.row {
+    margin-right: -8px;
+    margin-left: -8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn-success {
+    color: #fff;
+    background-color: #2dc44d;
+    border-color: #2dc44d;
+    box-shadow: none;
+}
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    font-size: .875rem;
+    border-radius: 0.25rem;
+    transition: none;
+}
+.CheckIn {
+    align-items: end;
+}

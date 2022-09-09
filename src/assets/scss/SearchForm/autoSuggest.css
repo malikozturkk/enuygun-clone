@@ -1,0 +1,56 @@
+.react-autosuggest__input {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    box-sizing: border-box;
+    padding: 11px 30px 11px 10px;
+    line-height: 1rem;
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    background-color: #fff;
+    outline: 0;
+    color: inherit;
+}
+.react-autosuggest__suggestions-container--open {
+    position: absolute;
+    z-index: 9999;
+    background-color: #fff;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 14px 0 rgba(0,0,0,.12),0 14px 14px 0 rgba(0,0,0,.2)!important;
+    margin-top: 0;
+    width: 100%;
+    min-width: 400px;
+    max-width: 600px;
+    max-height: 500px;
+    overflow: auto;
+    border-radius: 4px;
+    top: 45px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.react-autosuggest__suggestions-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+    font-size: 14px;
+    text-align: left;
+    padding: 0;
+    cursor: pointer;
+}
+
+.suggestion_item {
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #797d7f;
+}
+.city_code {
+    font-size: 16px;
+    max-width: 100px;
+}

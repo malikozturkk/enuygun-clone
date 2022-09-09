@@ -1,0 +1,18 @@
+.react-tabs__tab-list {
+    border-bottom: none!important;
+    margin: 0!important;
+}
+.react-tabs__tab {
+    border: none!important;
+    border-bottom: none!important;
+    bottom: 0;
+    padding: 0!important;
+}
+.react-tabs__tab--selected {
+    border-bottom: 2px solid #2dc44d!important;
+    background: none!important;
+    border-radius: initial!important;
+}
+.react-tabs__tab:focus {
+    display: none;
+}

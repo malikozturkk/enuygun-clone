@@ -1,0 +1,103 @@
+[
+    {
+        "id":1,
+        "name": "Uçak Bileti",
+        "link":"https://enuygun.com/ucak-bileti",
+        "items" : [
+                { "name": "THY", "link":"https://www.enuygun.com/ucak-bileti/thy/" },
+                { "name": "Pegasus", "link": "https://www.enuygun.com/ucak-bileti/pegasus/" },
+                { "name": "Onur Air", "link": "https://www.enuygun.com/ucak-bileti/onur-air/" },
+                { "name": "SunExpress", "link": "https://www.enuygun.com/ucak-bileti/sun-express/" },
+                { "name": "AnadoluJet", "link": "https://www.enuygun.com/ucak-bileti/anadolu-jet/" }
+        ]
+    },
+    {
+        "id":2,
+        "name": "Otel",
+        "link":"https://enuygun.com/otel",
+        "items" : [
+            { "name": "İstanbul Otelleri", "link":"https://www.enuygun.com/otel/istanbul-1639/" },
+            { "name": "Antalya Otelleri", "link": "https://www.enuygun.com/otel/antalya-481/" },
+            { "name": "Bodrum Otelleri", "link": "https://www.enuygun.com/otel/bodrum-745/" }
+        ]
+    },
+    {
+        "id":3,
+        "name": "Otobüs Bileti",
+        "link":"https://enuygun.com/otobus-bileti",
+        "items" : [
+            { "name": "İstanbul Otobüs Bileti", "link":"https://www.enuygun.com/otobus-bileti/istanbul/" },
+            { "name": "Ankara Otobüs Bileti", "link": "https://www.enuygun.com/otobus-bileti/ankara/" },
+            { "name": "İzmir Otobüs Bileti", "link": "https://www.enuygun.com/otobus-bileti/izmir/" },
+            { "name": "Bodrum Otobüs Bileti", "link": "https://www.enuygun.com/otobus-bileti/bodrum/" },
+            { "name": "Adana Otobüs Bileti", "link": "https://www.enuygun.com/otobus-bileti/adana/" },
+            { "name": "Antalya Otobüs Bileti", "link": "https://www.enuygun.com/otobus-bileti/antalya/" }
+        ]
+    },
+    {
+        "id":4,
+        "name": "Kredi",
+        "link":"https://enuygun.com/kredi",
+        "items" : [
+            { "name": "İhtiyaç Kredisi", "link":"https://www.enuygun.com/kredi/ihtiyac/" },
+            { "name": "Konut Kredisi", "link":"https://www.enuygun.com/kredi/konut/" },
+            { "name": "Taşıt Kredisi", "link":"https://www.enuygun.com/kredi/tasit/" },
+            { "name": "Kredi Kartı", "link":"https://www.enuygun.com/kredi-karti/" },
+            { "name": "Mevduat", "link":"https://www.enuygun.com/mevduat/" }
+        ]
+    },
+    {
+        "name":"Sigorta",
+        "link":"https://enuygunsigorta.com/",
+        "items" : [
+            { "name": "Kasko", "link":"https://www.enuygun.com/sigorta/kasko/" },
+            { "name": "Zorunlu Trafik Sigortası", "link":"https://www.enuygun.com/sigorta/zorunlu-trafik-sigortasi/" },
+            { "name": "Seyahat Sigortası", "link":"https://www.enuygun.com/sigorta/seyahat-sigortasi/" },
+            { "name": "Sağlık Sigortası", "link":"https://www.enuygun.com/sigorta/saglik-sigortasi/" },
+            { "name": "Konut Sigortası", "link":"https://www.enuygun.com/sigorta/konut-sigortasi/" },
+            { "name": "DASK", "link":"https://www.enuygun.com/sigorta/dask/" }
+        ]
+    },
+    {
+        "id":5,
+        "name":"İnternet Bağlantıları",
+        "link":"https://enuygun.com/internet-baglantilari",
+        "items" : [
+            { "name": "D-Smart", "link":"https://www.enuygun.com/internet-baglantilari/d-smart-net" },
+            { "name": "Millenicom", "link":"https://www.enuygun.com/internet-baglantilari/millenicom" },
+            { "name": "Turk Telekom", "link":"https://www.enuygun.com/internet-baglantilari/turk-telekom" },
+            { "name": "Turknet", "link":"enuygun.com/internet-baglantilari/turknet" },
+            { "name": "Superonline", "link":"https://www.enuygun.com/internet-baglantilari/superonline" }
+        ]
+    },
+    {
+        "id":6,
+        "name":"GSM",
+        "link":"https://enuygun.com/gsm",
+        "items" : [
+            { "name": "Turk Telekom", "link":"https://www.enuygun.com/gsm/turk-telekom/" },
+            { "name": "Turkcell", "link":"https://www.enuygun.com/gsm/turkcell/" },
+            { "name": "Vodafone", "link":"https://www.enuygun.com/gsm/vodafone/" }
+        ]
+    },
+    {
+        "id":7,
+        "items" : [
+            { "name": "Hakkımızda", "link":"https://www.enuygun.com/hakkinda/" },
+            { "name": "İletişim", "link":"https://www.enuygun.com/iletisim/" },
+            { "name": "Şirket Bilgileri", "link":"https://www.enuygun.com/sirket-bilgileri/" },
+            { "name": "Reklam", "link":"https://www.enuygun.com/reklam/" },
+            { "name": "Bilgi Yazıları", "link":"https://www.enuygun.com/bilgi/" },
+            { "name": "Kişisel Verilerin Korunması", "link":"https://www.enuygun.com/aydinlatma-metni/" },
+            { "name": "Kullanım Koşulları", "link":"https://www.enuygun.com/kullanim-kosullari/" },
+            { "name": "Kurumsal Biletleme Koşulları", "link":"https://www.enuygun.com/kurumsal-biletleme-kosullari/" },
+            { "name": "Kariyer", "link":"https://www.enuygun.com/kariyer/" },
+            { "name": "Logo Kullanımı", "link":"https://www.enuygun.com/logo-ve-isim-kullanim-standartlari/" },
+            { "name": "Kampanyalar", "link":"https://www.enuygun.com/kampanyalar/ucak-bileti/" },
+            { "name": "Yardım", "link":"https://www.enuygun.com/yardim/" },
+            { "name": "Ödüllerimiz", "link":"https://www.enuygun.com/odullerimiz/" },
+            { "name": "Resmi Tatiller", "link":"https://www.enuygun.com/resmi-tatil-gunleri/" }
+
+        ]
+    }
+]

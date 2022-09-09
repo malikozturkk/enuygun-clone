@@ -1,0 +1,9 @@
+.Dropdown-control {
+    color: #53605e!important;
+    border: 1px solid #e2e2e2!important;
+    cursor: pointer!important;
+}
+
+.Dropdown-arrow {
+    display: none!important;
+}

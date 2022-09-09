@@ -1,0 +1,199 @@
+body {
+    font-family: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.filterCol {
+    max-width: 316px;
+}
+.container {
+    min-height: 200px;
+    width: 1140px;
+    max-width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 8px;
+}
+.searchFormGraphic {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.searchResult {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+}
+.flightList {
+    border: solid 1px #d7dddb;
+    margin-bottom: 10px;
+    transition: .5s;
+    border-radius: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
+    padding: 12px;
+    position: relative;
+    width: 100%;
+    margin-top: 2px;
+    font-size: .75rem;
+    cursor: pointer;
+}
+.flight-summary {
+    min-height: 66px;
+    position: relative;
+    display: flex;
+    line-height: 22px;
+}
+.flight-summary-infos {
+    display: flex;
+    flex: 0 0 100%;
+    max-width: 100%;
+    line-height: 22px;
+}
+.flight-summary-airline {
+    flex: 0 0 30%;
+    max-width: 30%;
+    padding-right: 0.5rem;
+}
+.summary-airline {
+    display: flex;
+    align-items: center;
+}
+.airlineIcon {
+    flex: 0 0 auto;
+    margin-right: 0.25rem;
+}
+.summary-marketing-airlines {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    direction: ltr;
+}
+.summary-airports {
+    text-align: left;
+}
+.AngleRight {
+    margin: 0 5px;
+}
+.flight-summary-promo {
+    display: block;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+.summary-transit {
+    color: #2dc44d;
+}
+.flight-summary-time {
+    flex: 0 0 15%;
+    max-width: 15%;
+}
+.summary-time {
+    display: flex;
+    color: #53605e;
+    font-size: 16px;
+    font-weight: 700;
+}
+.seperator {
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: 400;
+    padding: 0 4px;
+}
+.flight-arrival-time {
+    font-size: 13px;
+    font-weight: 400;   
+}
+.flight-summary-price {
+    flex: 0 0 20%;
+    max-width: 20%;
+    text-align: right;
+}
+.summary-average-price {
+    float: none;
+    width: 100%;
+    font-weight: 700;
+    color: #53605e;
+}
+.money-int {
+    font-size: 1.25rem;
+    vertical-align: middle;
+}
+.money-decimal, .money-currency {
+    font-size: .7rem;
+    vertical-align: middle;
+}
+.flight-summary-select {
+    display: block;
+    align-self: center;
+    flex: 0 0 15%;
+    max-width: 15%;    
+}
+.action-select-btn {
+    background: #2dc44d;
+    color: #fff;
+    font-weight: 700;
+    padding: 7px 14px 6px 0!important;
+    font-size: .9rem;
+    height: inherit!important;
+    min-width: 4rem;
+}
+.ei-arrow_forward-material {
+    font-size: .76rem;
+    margin-top: 3px;
+    margin-left: 3px;
+    position: absolute;
+    right: 10px;
+}
+.ButtonIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eiFlightUp {
+    position: absolute;
+    font-size: 16px;
+    top: -12px;
+    left: 50%;
+    display: block;
+    z-index: 9;
+    transform: rotate(90deg);
+    color: #53605e;
+}
+.flight-actions {
+    display: flex;
+    right: 0;
+    left: 10px;
+    bottom: 1px;
+    align-items: flex-end;
+}
+.action-detail-btn {
+    padding: 0;
+    line-height: 22px;
+    color: #0087ff;
+    border: 0;
+    cursor: pointer;
+    background-color: #fff;
+}
+.angleBottom {
+    display: flex;
+    align-items: center;
+}
+.flight-detail {
+    height: 0;
+    transition: height .35s;
+    opacity: 0;
+    pointer-events: none;
+}
+.show {
+    height: 110px;
+    opacity: 1;
+    pointer-events: all;
+}
+.segment-detail {
+    opacity: 0;
+    transition: all 0.3s 0.1s;
+}
+.show .segment-detail {
+    opacity: 1;
+} 
+.segmentInfo {
+    text-align: left;
+}
